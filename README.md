@@ -21,10 +21,10 @@ This is a conosle tools for docker!
 
 third-libries:
 
-* nodedm: docker-machine
-* dockerode: docker
-* cli-table: format table string.
-* shell: shell framework
+* [shell](https://github.com/wdavidw/node-shell): shell framework
+* [nodedm](https://github.com/lawrence0819/nodedm): docker-machine
+* [dockerode](https://github.com/apocas/dockerode): docker
+* [cli-table](https://github.com/Automattic/cli-table): format table string.
 
 ## Usage
 
@@ -33,8 +33,9 @@ third-libries:
 
 **First, install docker & docer-machine & nodejs!**
 
-```
+```bash
 $ npm i -g docker-console
+$ docker-console lm # directly run the commands.
 $ docker-console
 unix:///var/run/docker.sock > _
 ```
