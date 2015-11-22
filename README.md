@@ -40,6 +40,8 @@ $ docker-console
 unix:///var/run/docker.sock > _
 ```
 
+![docker-console](docker-console.png)
+
 ## 1. machine commands
 
 ### 1.1. list machine (or search machine)
